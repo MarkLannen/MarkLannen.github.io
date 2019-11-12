@@ -1,0 +1,86 @@
+body {
+    background-color: #232323;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #029BEB;
+    font-weight: normal;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+
+#colorDisplay {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.textOutline {
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+}
+
+#messageBar {
+    /*max-width: 600px;*/
+    background-color: white;
+    /*text-align: center;*/
+    color: #232323;
+}
+
+#messageBarButtons {
+    max-width: 550px;
+}
+
+#newColorButton {
+    /*margin-right: auto*/
+    /*justify-content: flex-start;*/
+}
+
+.selected {
+    background-color: #029BEB;
+    color: white;
+    border: none;
+}
+
+#message {
+    font-size: 1.2em;
+    font-weight: 700;
+    /*margin: 0 auto;*/
+}
+
+.newColorButton:hover {
+    background-color: yellow;
+    color: steelblue;
+}
+
+button button:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+#easyBtn {
+    margin-left: auto;
+}
+
+
+
